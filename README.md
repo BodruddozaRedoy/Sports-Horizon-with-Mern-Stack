@@ -7,3 +7,10 @@
 - User can see all product added by another user but cant remove and update.
 - Main admin can remove all product.
 - Authentication using firebase.
+
+## Technologies:
+- MERN - Mongodb, Express js, React js, Node js
+- Context api
+- Tailwind css
+- Firebase 
+- React Packages
