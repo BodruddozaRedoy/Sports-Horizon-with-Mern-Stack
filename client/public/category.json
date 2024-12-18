@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "CategoryName": "Cricket Equipment",
+      "Description": "All types of cricket gear including bats, balls, and protective equipment."
+    },
+    {
+      "id": 2,
+      "CategoryName": "Tennis Gear",
+      "Description": "Tennis rackets, balls, and accessories for players of all levels."
+    },
+    {
+      "id": 3,
+      "CategoryName": "Football Accessories",
+      "Description": "Football gear including balls, cleats, and training equipment."
+    },
+    {
+      "id": 4,
+      "CategoryName": "Skateboard Equipment",
+      "Description": "Basketballs, hoops, and other basketball-related items."
+    },
+    {
+      "id": 5,
+      "CategoryName": "Racket Gear",
+      "Description": "Hockey sticks, pucks, protective gear, and more."
+    },
+    {
+      "id": 6,
+      "CategoryName": "Baseball Gear",
+      "Description": "Baseball gloves, bats, balls, and other related equipment."
+    }
+  ]
+  

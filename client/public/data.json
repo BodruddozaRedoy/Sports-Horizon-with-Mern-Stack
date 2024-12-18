@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "Image": "https://www.shutterstock.com/image-vector/illustration-cricket-bat-on-isolated-600nw-2452695663.jpg",
+      "ItemName": "Cricket Bat",
+      "CategoryName": "Cricket Equipment",
+      "Description": "High-quality cricket bat made from premium willow.",
+      "Price": 120.00,
+      "Rating": 4.5,
+      "Customization": ["Extra Grip", "Custom Engraving"],
+      "ProcessingTime": "3-5 Business Days",
+      "StockStatus": 15
+    },
+    {
+      "id": 2,
+      "Image": "https://i5.walmartimages.com/seo/Wilson-Burn-Pink-25-in-Junior-Tennis-Racket-Ages-9-10_6f2317be-6133-4a23-8125-2ce46285260c.851da120f1cb97923c875bfb49af7f90.png",
+      "ItemName": "Tennis Racket",
+      "CategoryName": "Tennis Gear",
+      "Description": "Lightweight and durable tennis racket for professionals.",
+      "Price": 85.00,
+      "Rating": 4.7,
+      "Customization": ["String Tension Adjustment", "Handle Wrap"],
+      "ProcessingTime": "2-4 Business Days",
+      "StockStatus": 30
+    },
+    {
+      "id": 3,
+      "Image": "https://media.istockphoto.com/id/610241662/photo/soccer-ball-isolated-on-the-white-background.jpg?s=612x612&w=0&k=20&c=f7EWJti8x_JFmDxA8CMJvi1ulMlPjTdDP69HBWy9Hb4=",
+      "ItemName": "Football",
+      "CategoryName": "Football Accessories",
+      "Description": "Official size and weight football with a sturdy build.",
+      "Price": 25.00,
+      "Rating": 4.3,
+      "Customization": ["Player Name Engraving", "Logo Printing"],
+      "ProcessingTime": "5-7 Business Days",
+      "StockStatus": 50
+    },
+    {
+      "id": 4,
+      "Image": "https://cdn.pixabay.com/photo/2022/05/15/23/09/sports-7199150_640.png",
+      "ItemName": "Basketball",
+      "CategoryName": "Basketball Equipment",
+      "Description": "High-quality basketball suitable for indoor and outdoor play.",
+      "Price": 30.00,
+      "Rating": 4.6,
+      "Customization": ["Custom Team Logo", "Name Printing"],
+      "ProcessingTime": "4-6 Business Days",
+      "StockStatus": 20
+    },
+    {
+      "id": 5,
+      "Image": "https://img.drz.lazcdn.com/static/bd/p/2b6b58deaedde72c17baa058eabd539e.jpg_720x720q80.jpg",
+      "ItemName": "Hockey Stick",
+      "CategoryName": "Hockey Gear",
+      "Description": "Durable and lightweight hockey stick for professional players.",
+      "Price": 100.00,
+      "Rating": 3.8,
+      "Customization": ["Grip Tape", "Blade Curve Adjustment"],
+      "ProcessingTime": "3-5 Business Days",
+      "StockStatus": 12
+    },
+    {
+      "id": 6,
+      "Image": "https://m.media-amazon.com/images/I/71Q9S9lJGfL.jpg",
+      "ItemName": "Baseball Glove",
+      "CategoryName": "Baseball Gear",
+      "Description": "Comfortable and flexible baseball glove with a snug fit.",
+      "Price": 60.00,
+      "Rating": 4.4,
+      "Customization": ["Extra Padding", "Custom Stitching"],
+      "ProcessingTime": "2-3 Business Days",
+      "StockStatus": 25
+    }
+  ]
+  
