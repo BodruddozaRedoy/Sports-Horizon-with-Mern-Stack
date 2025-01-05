@@ -17,7 +17,7 @@ const ShopSection = () => {
         }
     }, [category])
     return (
-        <div className='my-5 mx-5 lg:mx-40'>
+        <div className='my-5 mx-5 md:mx-0'>
             <div>
             <h1 className='text-center font-bold text-3xl'>Products</h1>
             <p className='font-semibold text-center mt-10'>{item.length === 0 && "No item available!!"}</p>

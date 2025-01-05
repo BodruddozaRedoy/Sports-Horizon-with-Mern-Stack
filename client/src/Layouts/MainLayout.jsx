@@ -13,7 +13,7 @@ const MainLayout = () => {
             {
                 loading ? <Spinner/>
                 : <div>
-                <nav className='z-40'>
+                <nav className='z-60'>
                     <Headroom>
                     <Navbar/>
                     </Headroom>

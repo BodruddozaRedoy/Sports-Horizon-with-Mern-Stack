@@ -62,7 +62,7 @@ const MyEquipmentPage = () => {
                                 <div className='bg-white rounded-lg shadow-lg border-2 overflow-hidden border-main my-5 '>
                                 <img className='w-full h-[350px]' src={item.imageUrl} alt="" />
                                 <div className='p-5 space-y-5'>
-                                <h1>{item.title}</h1>
+                                <h1 className='truncate'>{item.title}</h1>
                                 <hr className='text-gray'/>
                                 <div className='flex items-center justify-between'>
                                 <p>Processing Time: <br /> <span>{item.processingTime}</span></p>

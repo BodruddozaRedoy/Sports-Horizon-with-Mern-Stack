@@ -12,6 +12,8 @@ import MyEquipmentPage from '../Pages/MyEquipmentPage'
 import CardDetailsPage from '../Pages/CardDetailsPage'
 import UpdatePage from '../Pages/UpdatePage'
 import UsersPage from '../Pages/UsersPage'
+import AboutPage from '../Pages/AboutPage'
+import ContactPage from '../Pages/ContactPage'
 
 export const router = createBrowserRouter([
     {
@@ -61,7 +63,15 @@ export const router = createBrowserRouter([
                 path: "/users",
                 element: <UsersPage/>,
                 loader: () => fetch(`${import.meta.env.VITE_SERVER_URI}/users`)
-            }
+            },
+            {
+                path: "/about",
+                element: <AboutPage/>,
+            },
+            {
+                path: "/contact",
+                element: <ContactPage/>,
+            },
         ]
     },
     {

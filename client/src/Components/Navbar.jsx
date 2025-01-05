@@ -30,8 +30,10 @@ const Navbar = () => {
             <div className='hidden lg:flex items-center gap-3 lg:gap-5 text-white dark:text-black font-semibold font-poppins text-sm' >
                 <NavLink to={'/'}><p>Home</p></NavLink>
                 <NavLink to={'/all-equipment'}><p>All Sports Equipment</p></NavLink>
-                <NavLink to={'/add-equipment'}><p>Add Equipment</p></NavLink>
-                <NavLink to={'/my-equipment'}><p>My Equipment List</p></NavLink>
+                { user && <NavLink to={'/add-equipment'}><p>Add Equipment</p></NavLink>}
+                {user && <NavLink to={'/my-equipment'}><p>My Equipment List</p></NavLink>}
+                <NavLink to={'/about'}><p>About Us</p></NavLink>
+                <NavLink to={'/contact'}><p>Contact Us</p></NavLink>
                 {user?.email === "bodruddozaredoy@gmail.com" && <NavLink to={'/users'}>Users</NavLink>}
                 
             </div>

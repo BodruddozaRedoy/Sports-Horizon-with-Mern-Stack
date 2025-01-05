@@ -14,17 +14,20 @@ const Card = ({item}) => {
             <div className='p-5 space-y-5'>
             <h1 className='truncate'>{title}</h1>
             <hr className='text-gray'/>
-            <div className='flex items-center justify-between'>
+            {/* <div className='flex items-center justify-between'>
             <p>Processing Time: <br /> <span>{processingTime} days</span></p>
             <p>Stock Status: <br /> <span>{stockStatus}</span></p>
-            </div>
+            </div> */}
             <div className='flex items-center justify-between'>
             <p>Price: <span>${price}</span></p>
             <p className='flex gap-3 font-semibold'><ReactStars value={rating}/>  <span>{rating}</span></p>
             </div>
             <hr />
+            <p className='truncate'>
+                {description}
+            </p>
             <div className='flex justify-between items-center'>
-                <Link to={`/item/${_id}`}><button className='btn bg-main text-white'>View Details</button></Link>
+                <Link to={`/item/${_id}`}><button className='btn bg-main text-white'>See More</button></Link>
                 <p className='text-center rounded-3xl py-1 px-3 text-xs bg-main text-white'>{category}</p>
             </div>
             </div>

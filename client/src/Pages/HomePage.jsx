@@ -4,6 +4,8 @@ import ShopSection from '../Components/ShopSection';
 import {Link, NavLink, Outlet} from 'react-router-dom'
 import { Fade, Slide } from 'react-awesome-reveal';
 import Sale from '../Components/Sale';
+import Support from '../Components/Support';
+import NewsLetter from '../Components/NewsLetter';
 
 const HomePage = () => {
     const [category, setCategory] = useState([])
@@ -25,10 +27,13 @@ const HomePage = () => {
     }
     return (
         <div >
-            <header>
+            <header className=''>
                 <Banner/>
             </header>
-            <main>
+            <main className='md:w-[90%] lg:w-[80%] mx-auto'>
+                <section className='w-full'>
+                    <Support/>
+                </section>
                 <section className=''>
                     <Fade>
                     <h1 className='text-center my-5 font-bold text-4xl'>Shop By Category</h1>
@@ -49,6 +54,9 @@ const HomePage = () => {
                 <section className='my-20'>
                     <h1 className='text-center text-4xl font-bold'>Grab Your Offer</h1>
                     <Sale/>
+                </section>
+                <section>
+                    <NewsLetter/>
                 </section>
             </main>
         </div>

@@ -3,7 +3,7 @@ import { Bounce } from 'react-awesome-reveal';
 
 const Sale = () => {
     return (
-        <div className='grid grid-cols-1 lg:mx-10 lg:grid-cols-2 my-10 md:my-20 items-center justify-center gap-20 md:mx-40'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 my-10 md:my-20 items-center justify-center gap-20'>
             <Bounce>
             <div className="bg-[url('../skateboard.jfif')] bg-no-repeat bg-cover rounded-xl p-1">
                 <div className='flex p-20 backdrop-blur-md rounded-xl'>
